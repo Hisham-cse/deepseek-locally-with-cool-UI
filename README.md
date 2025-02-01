@@ -34,7 +34,11 @@ npm start
   <li>Run DeepSeek models directly through the UI.</li>
   <li>Visualize, analyze, and export results effortlessly.</li>
 </ul>
-
+ <h2>You can now view your Streamlit app in your browser.</h2>
+<code>
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.9:8501
+</code>
 <h2>🤝 Contributing:</h2>
 <p>Contributions are welcome! Feel free to fork the repo, create a branch, and submit pull requests.</p>
 
