@@ -1,50 +1,46 @@
-<h1>🚀 DeepSeek Locally with Cool UI 🌐</h1>
+<h1>🧠 DeepSeek Code Companion 🚀</h1>
 
-<p>A sleek, user-friendly interface for running <strong>DeepSeek</strong> locally! This project allows you to harness the power of DeepSeek with an intuitive UI designed for seamless interaction, efficient data handling, and enhanced visualization.</p>
+<p><strong>DeepSeek Code Companion</strong> is an advanced AI-powered coding assistant designed to run locally using <a href="https://ollama.ai/" target="_blank">Ollama</a> and <a href="https://python.langchain.com/" target="_blank">LangChain</a>. It enhances your programming workflow with intelligent code suggestions, debugging support, and documentation capabilities through an intuitive <strong>Streamlit</strong>-based UI.</p>
 
-<h2>🔑 Features:</h2>
+<h2>✨ Key Features:</h2>
 <ul>
-  <li>⚡ <strong>Run DeepSeek Locally:</strong> Fast, secure, and fully offline functionality.</li>
-  <li>🎨 <strong>Cool UI:</strong> Modern, responsive design for effortless navigation.</li>
-  <li>📊 <strong>Data Visualization:</strong> Dynamic charts and graphs to analyze results effectively.</li>
-  <li>🔍 <strong>Advanced Search Capabilities:</strong> Filter and explore data with ease.</li>
-  <li>🛠️ <strong>Customizable Settings:</strong> Tailor the interface and processing parameters to your needs.</li>
+  <li>⚡ <strong>Run Locally:</strong> Fully functional without internet dependency.</li>
+  <li>🧠 <strong>AI Pair Programmer:</strong> Get concise, accurate coding solutions.</li>
+  <li>🐞 <strong>Debugging Assistant:</strong> Suggests strategic print statements for easy debugging.</li>
+  <li>📝 <strong>Code Documentation:</strong> Auto-generates documentation for better code clarity.</li>
+  <li>💡 <strong>Solution Design:</strong> Provides optimized approaches for complex coding tasks.</li>
+  <li>🎨 <strong>Cool & Responsive UI:</strong> Modern dark-themed interface for seamless coding interactions.</li>
 </ul>
 
-<h2>🖥️ Tech Stack:</h2>
+<h2>🔧 Tech Stack:</h2>
 <ul>
-  <li><strong>Frontend:</strong> HTML, CSS, JavaScript (React/Vue)</li>
-  <li><strong>Backend:</strong> Python (Flask/Django)</li>
-  <li><strong>Data Handling:</strong> Pandas, NumPy</li>
-  <li><strong>Visualization:</strong> Chart.js / D3.js</li>
+  <li><strong>Frontend:</strong> Streamlit (with custom CSS for sleek UI)</li>
+  <li><strong>Backend:</strong> Python (LangChain, ChatOllama)</li>
+  <li><strong>Deployment:</strong> Runs locally with Ollama server integration</li>
 </ul>
 
 <h2>🚀 Getting Started:</h2>
 <pre><code>
-git clone https://github.com/your-username/deepseek-locally-ui.git
-cd deepseek-locally-ui
+# Clone the repository
+git clone https://github.com/your-username/deepseek-code-companion.git
+cd deepseek-code-companion
+
+# Install the required dependencies
 pip install -r requirements.txt
-npm install
-npm start
+
+# Run the Streamlit app
+streamlit run app.py
 </code></pre>
 
-<h2>📄 Usage:</h2>
-<ul>
-  <li>Upload datasets or connect to live data sources.</li>
-  <li>Run DeepSeek models directly through the UI.</li>
-  <li>Visualize, analyze, and export results effortlessly.</li>
-</ul>
- <h2>You can now view your Streamlit app in your browser.</h2>
-<code>
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.1.9:8501
-</code>
-<h2>🤝 Contributing:</h2>
-<p>Contributions are welcome! Feel free to fork the repo, create a branch, and submit pull requests.</p>
+<h2>⚙️ Configuration:</h2>
+<p>Choose your preferred model from the sidebar, adjust settings, and start coding with AI-powered assistance.</p>
 
-<h2>📢 License:</h2>
+<h2>🤝 Contributing:</h2>
+<p>We welcome contributions! Fork the repo, create a feature branch, and submit a pull request.</p>
+
+<h2>📄 License:</h2>
 <p><a href="LICENSE">MIT License</a></p>
 
 <blockquote>
-  <strong>Built with ❤️ to make DeepSeek more accessible and powerful!</strong>
+  <strong>Built with ❤️ for developers who love efficient coding!</strong>
 </blockquote>
